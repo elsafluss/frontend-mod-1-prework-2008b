@@ -21,6 +21,7 @@ printName();
 printName();
 printName();
 printName();
+console.log("Dumbledore!")
 // Since the function was called 4 times, "Severus Snape, ew" will log 4 times.
 
 
@@ -48,9 +49,9 @@ function greetMe(name) {
   console.log( name )
 }
 
-greetMe ("Elsa");
-greetMe ("Matt");
-greetMe ("Hammer");
+greetMe("Elsa");
+greetMe("Matt");
+greetMe("Hammer");
 
 
 // YOU DO: Write a function that takes in 2 numbers as arguments, Numbers, and logs their sum
@@ -59,13 +60,13 @@ greetMe ("Hammer");
 var x = ""
 var y = ""
 
-function add( x, y ) {
-  console.log ( x + y )
+function add(x, y) {
+  console.log (x + y)
 }
 
-add ( 3, 4 );
-add ( 5, 9 );
-add ( 100, 1);
+add (3, 4);
+add (5, 9);
+add (100, 1);
 
 
 // YOU DO🎈: Write a function that takes in two strings and prints a concatenation
@@ -75,11 +76,11 @@ add ( 100, 1);
 var firstName = "";
 var lastName = "";
 
-function introDr( firstName, lastName ) {
-  console.log ( "Hi, I'm Doctor " + lastName + " but you can call me " + firstName + ".")
+function introDr(firstName, lastName) {
+  console.log ("Hi, I'm Doctor " + lastName + " but you can call me " + firstName + ".")
 }
 
-introDr( "Daniel", "Jackson" );
+introDr("Daniel", "Jackson");
 
 //-------------------
 // PART 3: Naming is Hard
@@ -100,10 +101,10 @@ EXPLAIN:
 var numerator = ""
 var denominator = ""
 
-function divide( numerator, denominator ) {
-  console.log ( numerator / denominator )
+function divide(numerator, denominator) {
+  console.log (numerator / denominator)
 }
 
-divide ( 4, 2 );
-divide ( 10, 2 );
-divide ( 100, 10);
+divide (4, 2);
+divide (10, 2);
+divide (100, 10);
