@@ -14,6 +14,7 @@ var name = "Ron";
 var team = "Chudley Cannons";
 
 console.log("The " + team + " are " + name + "'s favorite Quidditch team");
+console.log(`The ${team} are ${name}'s favorite Quidditch team.`)
 
 // YOU DO: Read the next few lines of code...
 var numberOfCreatures = 7;
