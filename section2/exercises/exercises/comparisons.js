@@ -86,20 +86,20 @@ console.log(4 < 9);
 
 var books = 3;
 console.log(4 < books);
-// will display the answer to "is 4 less than 3 (books)", which is false
 // YOU DO: Explain.
+// will display the answer to "is 4 less than 3 (books)", which is false
 
 var friends = 6;
 var siblings = 2;
 console.log(friends > siblings);
-// will display the answer to "is 6 greater than 2?" (is friends greater than siblings), which is true
 // YOU DO: Explain.
+// will display the answer to "is 6 greater than 2?" (is friends greater than siblings), which is true
 
 var attendees = 9;
 var meals = 8;
 console.log(attendees !== meals);
-// will display the answer to "is the number of attendees 9 different from the number of meals 8?" which is true
 // YOU DO: Explain.
+// will display the answer to "is the number of attendees 9 different from the number of meals 8?" which is true
 
 
 //-------------------
@@ -134,7 +134,7 @@ console.log("Does the dog love to play or does it love the dog park?", lovesToPl
 console.log("Does the dog love to play and is the dog younger than 3?", lovesToPlay && age < 3);
 
 // What did your final line of code evaluate to? Why do you think that is? Explain.
-// ANSWER:
+// ANSWER: true
 
 //-------------------
 // FINAL CHECK
