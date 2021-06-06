@@ -50,6 +50,7 @@ if( dogAge <= 2 ) {
 } else{
   console.log( "That's a good adult doggo");
 }
+console.log("All doggos are good")
 
 
 /*
